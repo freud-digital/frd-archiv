@@ -1,8 +1,8 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="listorg.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/listkey.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/listperson.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at/freud-hka" xml:id="listdream.xml" prev="https://id.acdh.oeaw.ac.at/freud-hka/listbibl.xml" next="https://id.acdh.oeaw.ac.at/freud-hka/listkey.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Index of Institutions mentioned in Freud Edition</title>
+            <title type="main">Träume Index in Freud Edition</title>
             <respStmt>
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
@@ -44,29 +44,30 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p>Organizations mentioned in Freud Edition</p>
+            <p>Träume in Freud Edition</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="index_organizations">
-            <listOrg xml:id="listorg">
-               <org xml:id="frd_org_1">
-                  <orgName>Wiener Psychonanalytische Vereinigung</orgName>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q685872</idno>
-               </org>
-               <org xml:id="frd_org_2">
-                  <orgName>Universität Wien</orgName>
-                  <idno type="WIKIDATA">http://www.wikidata.org/entity/Q165980</idno>
-               </org>
-               <org xml:id="frd_org_4">
-                  <orgName>Schule von Nancy</orgName>
-                  <idno type="WIKIDATA"/>
-                  <note>Hypnoseorientierte Psychotherapie-Schule in Nancy</note>
-               </org>
-            </listOrg>
-         </div>
+         <list type="index">
+            <item xml:id="frd_dream_id_3">
+               <name>Bequemlichkeitstraum</name>
+            </item>
+            <item xml:id="frd_dream_id_1">
+               <name>Kirschen aufgegessen</name>
+               <term n="6652">Kindertraum</term>
+            </item>
+            <item xml:id="frd_dream_id_4">
+               <name>Polarexpedition</name>
+            </item>
+            <item xml:id="frd_dream_id_2">
+               <name>Seefahrt</name>
+            </item>
+            <item xml:id="frd_dream_id_5">
+               <name>Tischgesellschaft</name>
+            </item>
+         </list>
       </body>
    </text>
 </TEI>
